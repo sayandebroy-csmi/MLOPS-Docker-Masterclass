@@ -18,3 +18,5 @@ ENV FLASK_APP=app.py
 
 # Run the Flask app
 CMD ["flask", "run", "--host=0.0.0.0", "--port=5001"]
+
+# docker build -t mlops-docker-demo .
