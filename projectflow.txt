@@ -1,9 +1,0 @@
-Login in to the docker hub first - https://hub.docker.com/repositories
-
-docker build -t mlops-docker-demo .
-
-docker run -p 5001:5001 flask-docker-demo
-
-docker tag mlops-docker-demo sayandebroycsmi/mlops-docker-demo:latest
-
-docker push sayandebroycsmi/mlops-docker-demo:latest
